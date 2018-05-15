@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input Demo</title>
+	</head>
+
+	<body>
+	
+	<p>Do you perfer cats or dogs?</p>
+	
+		<form>
+            <lable for="dogs">Dogs: </lable>
+<!-- "for" specifies to who the lable applies to-->
+<!-- "id" identifies its self so that "for" can diside to associate or not-->
+            <input name="petChoice" id="dogs" type="radio" value="DOG">
+<!-- value is what is sent if option is selected-->
+<!-- name how form is sent and identified-->
+            
+            <lable for="cats">Cats: </lable>
+		    <input name="petChoice" id="cats" type="radio" value="CATS">
+		    
+		    <select name="favColor">
+		        <option value="R">Red </option>
+		        <option value="Y"> Yellow </option>
+		        <option value="G"> Green </option>
+		    </select>
+		    
+		    <textarea name="parag" rows="10" cols="10"></textarea>
+		     
+            <button>Go! </button> 
+		</form>
+	</body>
+</html>
