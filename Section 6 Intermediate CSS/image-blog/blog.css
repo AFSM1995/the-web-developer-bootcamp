@@ -1,0 +1,23 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.666%
+}
+
+h1 {
+    font-family: Raleway;
+    margin-left: 1.666%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    height: 30%;
+    width: 30%;
+    padding-bottom: 20px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-style: solid;
+    border-color: #f1f1f1;
+}
