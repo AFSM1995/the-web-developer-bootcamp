@@ -1,0 +1,10 @@
+.pink {
+    background-color: hotpink;
+    border: 2px solid purple;
+}
+
+.orange {
+    background-color: orange;
+    border: 2px dashed orangered;
+    height: 50px;
+}
