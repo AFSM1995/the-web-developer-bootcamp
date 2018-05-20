@@ -6,20 +6,50 @@
 	<link href="navbars.css" type="text/css" rel="stylesheet">
 </head>
     <body>
+       
+<!--
         <nav class="navbar navbar-expand bg-light">
                 <a class="navbar-brand">Koffee</a>
                 <ul class="navbar-nav inline">
                   <li><a class="nav-item nav-link disabled" href="#">About</a></li>
                   <li><a class="nav-item nav-link disabled" href="#">Contact</a></li>
                 </ul>
+                
+                
 
                <div class="container justify-content-end">
                    <ul class="navbar-nav">
                     <li><a class="nav-item nav-link disabled" href="#">Sign Up</a></li>
                     <li><a class="nav-item nav-link disabled" href="#">Login</a></li>
                     </ul> 
-               </div>
-               
+               </div> 
         </nav>
+-->
+
+<!--Navbar basics-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Koffee</a>
+<!--spans hamburger button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!--identifies what will be inside the button, without this button has no list-->
+<!--this defines the layout in desktop mode, in mobile everything is a single list due to boottrap code i assume-->
+                <ul class="navbar-nav mr-auto">
+<!--"mr-auto" adds a space sto that the uls are on oppisite sides-->
+                    <li><a class="nav-link" href="#">About</a></li>
+                    <li><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="#">Sign Up</a></li>
+                    <li><a class="nav-link" href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="bootstrap.js"></script>
     </body>
 </html>
