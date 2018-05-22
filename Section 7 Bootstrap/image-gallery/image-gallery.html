@@ -1,91 +1,87 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Bootstrap Navbars</title>
-		<link rel="stylesheet" href="bootstrap.css" type="text/css">
-		<link rel="stylesheet" href="image-gallery.css" type="text/css">
-	</head>
 
-	<body>
-	
-<!--navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="container">
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">IMGS</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-        </ul>
+<head>
+    <title>Bootstrap Navbars</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="image-gallery.css" type="text/css">
+</head>
 
-      </div>
-      </div>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+        <!--navbar button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <!--mr auto adds space between navbar lists-->
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul id="sign" class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    
-<!--jumbotron screen-->
+
+    <!--jumbotron screen-->
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1 class="display-4">The Image Gallery</h1>
-            <p class="lead">A bunch of beautiful images that I didn`t take (except for the first one!)</p>
-          </div>
-        </div>        
+            <div class="container">
+                <h1 class="display-4"><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+                <p class="lead">A bunch of beautiful images that I didn`t take (except for the first one!)</p>
+            </div>
+        </div>
     </div>
-    
-<!--image layout-->
+
+    <!--image layout-->
     <div class="container">
-      <div class="row">
-        <div class="col-sm">
-             <img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <!--thumbnail add border and scales picture-->
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img class="img-fluid img-thumbnail" src="http://i.imgur.com/qK42fUu.jpg">
+            </div>
         </div>
-        <div class="col-sm">
-            <img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-        </div>
-        <div class="col-sm">
-             <img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
-        </div>
-      </div>
-       <div class="row">
-        <div class="col-sm">
-             <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-        </div>
-        <div class="col-sm">
-             <img src="https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-        </div>
-        <div class="col-sm">
-              <img src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-           
-        </div>
-      </div>
-       <div class="row">
-        <div class="col-sm">
-         <img src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-        </div>
-        <div class="col-sm">
-         <img src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-        </div>
-        <div class="col-sm">
-         <img src="http://i.imgur.com/qK42fUu.jpg">
-        </div>
-      </div>      
     </div>
-    
-		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-		<script src="bootstrap.js"></script>
-	</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+
 </html>
